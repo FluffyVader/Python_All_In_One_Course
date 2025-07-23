@@ -1,6 +1,6 @@
 #pip install matplotlib. this installs numpy
-
 import numpy as np
+
 #create array from list
 # a = np.array([])
 #     the basic stuff
@@ -25,10 +25,11 @@ import numpy as np
 # print(yArray)
 
 #solve
-#3x + 2y = 5
-#2x + 4y = 6
-A = np.array([[3, 2], [2, 4]])
-H = np.array([5, 6])
-X = np.linalg.solve(A, H)
+# 3x + 2y = 5
+# 2x + 4y = 6
 
-print(X)
+# A = np.array([[3, 2], [2, 4]])
+# H = np.array([5, 6])
+# X = np.linalg.solve(A, H)
+
+# print(X)
