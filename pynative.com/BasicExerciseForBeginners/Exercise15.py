@@ -20,9 +20,21 @@
 # i.e. (5 *5 * 5 *5 = 625)
 
 
-def power(num_to_power, num_to_power_by):
+def powerV1(num_to_power, num_to_power_by):
     result = num_to_power ** num_to_power_by
 
     print(f"{num_to_power} powered by {num_to_power_by} is {result}")
 
-power(10, 2)
+powerV1(20, 2)
+
+def powerV2(base, exponent):
+    result = 0
+
+    #result * result * base
+
+    for i in range(0, exponent, 1):
+        result = base * base
+
+    print(f"{base} powered by {exponent} is {result}")
+
+powerV2(20, 2)
